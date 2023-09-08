@@ -9,7 +9,7 @@ function mostrarMais(authorId) {
         verMaisBtn.textContent = 'Ver Menos';
     } else {
         fullBio.classList.add('hidden');
-        verMaisBtn.textContent = 'Ver Mais';
+        verMaisBtn.textContent = 'Ver Más';
     }
 }
 
@@ -21,7 +21,7 @@ function toggleTodos() {
         const conteudo = biografia.querySelector('p');
         if (conteudo.style.display === "block") {
             conteudo.style.display = "none";
-            botao.innerHTML = "Mostrar Mais";
+            botao.innerHTML = "Mostrar Más";
             biografia.classList.remove('selecionada');
         } else {
             conteudo.style.display = "block";
