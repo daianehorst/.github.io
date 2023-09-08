@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/bootstrap.css">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <script src="./js/jquery-3.7.0.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/inicio.js"></script>
+
+  <title>Biblioteca Literaria</title>
+  
+</head>
+<body>
+  <header>
+    <h1>Biblioteca Literaria</h1>
+    <p>¡Explora nuestra colección de libros increíbles!</p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="recomendacion.html">Recomendación de Libros</a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Galeria/Portada1.jpg" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Galeria/Portada2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Galeria/Portada3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+</section>
+<section class="container">
+  <br><br><h2><strong>Lista de Libros</strong></h2>
+  <p>¡Explora la libreria y conoce más sobre el maravilloso mundo literario!</p>
+  <section>
+    <div class="card mb-3" style="max-width: 1100px;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="Galeria/HarryPotter1.pdf.jpg" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title"><strong>Sinopsis</strong></h4>
+            <p>
+              Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y el insoportable primo Dudley. Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. En ella le comunican que ha sido aceptado como alumno en el Colegio Hogwarts de Magia. <span class="conteudo-extra">A partir de ese momento, la suerte de Harry da un vuelco espectacular. En esa escuela tan especial aprenderá encantamientos, trucos fabulosos y tácticas de defensa contra las malas artes. Se convertirá en el campeón escolar de Quidditch, especie de fútbol aéreo que se juega montado sobre escobas, y hará un puñado de buenos amigos... aunque también algunos temibles enemigos. Pero, sobre todo, conocerá los secretos que le permitirán cumplir su destino. Pues, aunque no lo parezca a primera vista, Harry no es un chico común y corriente: ¡Es un verdadero mago! </span>
+              <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+            </p>
+            <button type="button" class="btn btn-success" onclick="location.href='./pdf/harry_potter_y_la_piedra_filosofal.pdf'">Leer libro</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="card mb-3" style="max-width: 1100px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="Galeria/HarryPotter2.pdf.jpg" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Sinopsis</strong></h4>
+              <p>
+                Tras derrotar una vez más a lord Voldemort, su siniestro enemigo en Harry Potter y la piedra filosofal, Harry espera impaciente en casa de sus insoportables tíos el inicio del segundo curso del Colegio Hogwarts de Magia y Hechicería. Sin embargo, la espera dura poco, pues un elfo aparece en su habitación y le advierte que una amenaza mortal se cierne sobre la escuela. <span class="conteudo-extra">Así pues, Harry no se lo piensa dos veces y, acompañado de Ron, su mejor amigo, se dirige a Hogwarts en un coche volador. Pero ¿puede un aprendiz de mago defender la escuela de los malvados que pretenden destruirla? Sin saber que alguien ha abierto la Cámara de los Secretos, dejando escapar una serie de monstruos peligrosos, Harry y sus amigos Ron y Hermione tendrán que enfrentarse con arañas gigantes, serpientes encantadas, fantasmas enfurecidos y, sobre todo, con la mismísima reencarnación de su más temible adversario. </span>
+                <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+              </p>
+              <button type="button" class="btn btn-success" onclick="location.href='./pdf/harry_potter_y_la_camara_secreta.pdf'">Leer libro</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 1100px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="Galeria/HarryPotter3.pdf.jpg" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Sinopsis</strong></h4>
+              <p>
+                Igual que en las dos primeras partes de la serie, Harry aguarda con impaciencia el inicio del tercer curso en el Colegio Hogwarts de Magia.Tras haber cumplido los trece años, solo y lejos de sus amigos, Harry se pelea con su bigotuda tía Marge, a la que convierte en globo, y debe huir en un autobús mágico. <span class="conteudo-extra">Mientras tanto, de la prisión de Azkaban se ha escapado un terrible villano, Sirius Black, un asesino en serie con poderes mágicos que fue cómplice de lord Voldemort y que parece dispuesto a borrar a Harry del mapa.Y por si esto fuera poco, Harry deberá enfrentarse también a unos terribles monstruos, los dementores, seres abominables capaces de robarles la felicidad a los magos y de eliminar todo recuerdo hermoso de aquellos que osan mirarlos.Lo que ninguno de estos malvados personajes sabe es que Harry, con la ayuda de sus fieles amigos Ron y Hermione, es capaz de todo y mucho más. </span>
+                <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+              </p>
+              <button type="button" class="btn btn-success" onclick="location.href='./pdf/harry_potter_y_el_prisionero_de_azkaban'">Leer libro</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 1100px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="Galeria/HarryPotter4.pdf.jpg" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Sinopsis</strong></h4>
+              <p>
+                Harry Potter y el cáliz de fuego es la cuarta entrega de la serie fantástica de la autora británica J.K. Rowling. «Habrá tres pruebas, espaciadas en el curso escolar, que medirán a los campeones en muchos aspectos diferentes: sus habilidades mágicas, su osadía, sus dotes de deducción y, por supuesto, su capacidad para sortear el peligro.» <span class="conteudo-extra">Se va a celebrar en Hogwarts el Torneo de los Tres Magos. Sólo los alumnos mayores de diecisiete años pueden participar en esta competición, pero, aun así, Harry sueña con ganarla. En Halloween, cuando el cáliz de fuego elige a los campeones, Harry se lleva una sorpresa al ver que su nombre es uno de los escogidos por el cáliz mágico. Durante el torneo deberá enfrentarse a desafíos mortales, dragones y magos tenebrosos, pero con la ayuda de Ron y Hermione, sus mejores amigos, ¡Quizá logre salir con vida!</span>
+                <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+              </p>
+              <button type="button" class="btn btn-success" onclick="location.href='./pdf/harry_potter_y_el_caliz_de_fuego.pdf'">Leer libro</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 1100px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="Galeria/GameOfThorns1.webp" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Sinopsis</strong></h4>
+              <p>
+                Tras el largo verano, el invierno se acerca a los Siete Reinos. Lord Eddard Stark, señor de Invernalia, deja sus dominios para unirse a la corte de su amigo el rey Robert Baratheon, llamado el Usurpador, hombre díscolo y otrora guerrero audaz cuyas mayores aficiones son comer, beber y engendrar bastardos. <span class="conteudo-extra">Eddard Stark ocupará el cargo de Mano del Rey e intentará desentrañar una maraña de intrigas que pondrá en peligro su vida y la de todos los suyos.En un mundo cuyas estaciones pueden durar decenios y en el que retazos de una magia inmemorial y olvidada surgen en los rincones más sombríos y maravillosos, la traición y la lealtad, la compasión y la sed de venganza, el amor y el poder hacen del juego de tronos una poderosa trampa que atrapará en sus fauces a los personajes... y al lector.</span>
+                <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+              </p>
+              <button type="button" class="btn btn-success" onclick="location.href='./pdf/juego_de_tronos.pdf'">Leer libro</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 1100px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="Galeria/GameOfThorns2.webp" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Sinopsis</strong></h4>
+              <p>
+                Un cometa del color de la sangre hiende el cielo, cargado de malos augurios. Y hay razones sobradas para pensar así: los Siete Reinos se ven sacudidos por las luchas intestinas entre los nobles por la sucesión al Trono de Hierro. En la otra orilla del mar Angosto, la princesa Daenerys Targaryen conduce a su pueblo de jinetes salvajes a través del desierto. <span class="conteudo-extra">Y en los páramos helados del norte, más allá del Muro, un ejército implacable avanza hacia un territorio asolado por el caos y las guerras fratricidas. George R.R. Martin, con pulso firme y enérgico, nos deleita con un brillante despliegue de personajes, engranando una trama rica, densa y sorprendente. Nos vuelve testigos de luchas fratricidas, intrigas y traiciones palaciegas en una tierra maldita por la guerra, donde fuerzas ocultas se alzan de nuevo y acechan para reinar en las noches del largo invierno que se avecina. </span>
+                <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+              </p>
+              <button type="button" class="btn btn-success" onclick="location.href='./pdf/choque_de_reyes.pdf'">Leer libro</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 1100px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="Galeria/GameOfThorns3.jpg" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Sinopsis</strong></h4>
+              <p>
+               Las huestes de los fugaces reyes de Poniente, descompuestas en hordas, asuelan y esquilman una tierra castigada por la guerra e indefensa ante un invierno que se anuncia inusitadamente crudo. Las alianzas nacen y se desvanecen como volutas de humo bajo el viento helado del Norte. Ajena a las intrigas palaciegas, e ignorante del auténtico peligro en ciernes, la Guardia de la Noche se ve desbordada por los salvajes. <span class="conteudo-extra">Y al otro lado del mundo, Daenerys Targaryen intenta reclutar en las Ciudades Libres un ejército con el que desembarcar en su tierra.
+               Martin hace que lo imposible parezca sencillo. Tormenta de espadas confirma Canción de hielo y fuego como un hito de la fantasía épica. Brutal y poética, conmovedora y cruel, la magia de Martin, como la del mundo de Poniente, necesita apenas una pincelada para cautivar al lector, hacerlo reír y llorar, y conseguir que el asombro ceda paso a la más profunda admiración por la serie. </span>
+               <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+             </p>
+             <button type="button" class="btn btn-success" onclick="location.href='./pdf/tormenta_de_espadas.pdf'">Leer libro</button>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="card mb-3" style="max-width: 1100px;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="Galeria/NinoPijamaRayas.webp" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title"><strong>Sinopsis</strong></h4>
+            <p>
+             Bruno, de ocho años, es el hijo mimado de un oficial nazi. Al ascender a su padre, la familia se ve obligada a abandonar su confortable casa de Berlín y trasladarse a una zona aislada donde el solitario chico no tiene nada que hacer ni nadie con quien jugar. Muerto de aburrimiento y atraído por la curiosidad, Bruno hace caso omiso a lo que su madre le dice. No debe ir más allá del jardín bajo ninguna circunstancia. <span class="conteudo-extra">Pero el no le hace caso y se dirige hacia la 'granja' que ha vislumbrado en la distancia. Allí conoce a Shmuel, un chico de su edad que vive una extraña y paralela existencia al otro lado de una alambrada. El encuentro de Bruno con el chico del pijama de rayas le lleva a adentrarse de la forma más inocente en el mundo de adultos que les rodea. Entabla una amistad con Shmuel con terribles consecuencias. </span>
+             <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+           </p>
+           <button type="button" class="btn btn-success" onclick="location.href='./pdf/el_niño_con_el_pijama_de_rayasl.pdf'">Leer libro</button>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="card mb-3" style="max-width: 1100px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="Galeria/ElPrincipito.webp" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Sinopsis</strong></h4>
+          <p>
+            En este libro, un aviador —Saint-Exupéry lo fue— se encuentra perdido en el desierto del Sahara, después de haber tenido una avería en su avión. Entonces aparece un pequeño príncipe. En sus conversaciones con él, el narrador revela su propia visión sobre la estupidez humana y la sencilla sabiduría de los niños que la mayoría de las personas pierden cuando crecen y se hacen adultos. <span class="conteudo-extra">El principito vive en un pequeño planeta, el asteroide B 612, en el que hay tres volcanes (dos de ellos activos y uno no) y una rosa. Pasa sus días cuidando de su planeta, y quitando los árboles baobab que constantemente intentan echar raíces allí. De permitirles crecer, los árboles partirían su planeta en pedazos. Un día decide abandonar su planeta, quizás cansado de los reproches y reclamos de la rosa, para explorar otros mundos. Aprovecha una migración de pájaros para emprender su viaje y recorrer el universo; es así como visita seis planetas, cada uno de ellos habitado por un personaje: un rey, un vanidoso, un borracho, un hombre de negocios, un farolero y un geógrafo, los cuales, a su manera, demuestran lo vacías que se vuelven las personas cuando se transforman en adultas. El último personaje que conoce, el geógrafo, le recomienda viajar a un planeta específico, la Tierra, donde entre otras experiencias acaba conociendo al aviador que, ya habíamos comentado, estaba perdido en el desierto. </span>
+            <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+          </p>
+          <button type="button" class="btn btn-success" onclick="location.href='./pdf/el_principito.pdf'">Leer libro</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 1100px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="Galeria/AliciaPaisDeLasMaravillas.webp" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Sinopsis</strong></h4>
+          <p>
+            Un sueño, el de Alicia, es el punto de partida del fantástico viaje al centro de la tierra al que la tierna protagonista llega persiguiendo un pequeño conejo blanco. Allí todo puede ocurrirle desde empequeñecerse o engrandecerse por comer una torta o beber un licor, hasta presenciar como el gato de Chesire aparece y desaparece a voluntad no sin antes dejar su risa suspendida en el aire.  <span class="conteudo-extra">Otros acontecimientos memorables son la asistencia de la heroína al té de la liebre o la partida de croquet de la Reina de Corazones o la asistencia al proceso de una sota acusada de haber robado una pasta. Objetos, pequeños animales y seres extraños se mueven, hablan y se transforman, lo que confiere a lo cotidiano una dimensión inquietante, absurda y grotesca.
+
+            </span>
+            <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+          </p>
+          <button type="button" class="btn btn-success" onclick="location.href='./pdf/alicia_en_el_pais_de_las_maravillas.pdf'">Leer libro</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 1100px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="Galeria/Apocalipsis.webp" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Sinopsis</strong></h4>
+          <p>
+            Un virus gripal, creado artificialmente como posible arma  bacteriológica, se extiende por Estados Unidos y el mundo, provocando la  muerte de la mayor parte de la población. Los supervivientes tienen  sueños comunes, en los que aparece una anciana y un hombre joven. <span class="conteudo-extra">La  mujer anciana los incita a viajar a Nebraska para combatir a Randall  Flagg, un abominable personaje que lidera las fuerzas del mal y busca la  aniquilación definitiva de la humanidad mediante un temible arsenal nuclear.
+
+            </span>
+            <span class="ver-mais" onclick="mostrarConteudoExtra(this)">Ver Más</span>
+
+          </p>
+          <button type="button" class="btn btn-success" onclick="location.href='./pdf/apocalipsis.pdf'">Leer libro</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<footer class="footer">
+  <p>&copy; Biblioteca Literaria</p>
+</footer>
+</body>
+</html>
