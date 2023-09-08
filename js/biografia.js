@@ -61,15 +61,3 @@ function adicionarComentario(authorId) {
         authorBio.querySelector('.comentario-input').value = '';
     }
 }
-
-// Función para crear una galería de imágenes.
-function criarGaleria(authorId) {
-    const authorBio = document.getElementById(`author-bio-${authorId}`);
-    const imagens = authorBio.querySelectorAll('.imagem-hover');
-
-    imagens.forEach((imagem, index) => {
-        imagem.addEventListener('click', () => {
-            alert(`Imagem ${index + 1} clicada`);
-        });
-    });
-}
