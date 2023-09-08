@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #16996e;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1{
+  font-family: Apple Chancery, cursive;
+  color: #fff;
+}
+h2 {
+  font-family: Apple Chancery, cursive;
+  color: #16996e;
+}
+
+h4{
+  font-family: Apple Chancery, cursive;
+  color: #333;
+}
+h5{
+  font-family: Apple Chancery, cursive;
+  color: #333;
+
+}
+main {
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #16996e;
+  color: #fff;
+}
+
+
+/* Estilo CSS personalizado para el diseño de la imagen y el nombre del libro. */
+.book-info {
+  text-align: center;
+}
+
+.book-image {
+  max-width: 130px; /* Largor máximo de imagen */
+  display: block; /* Hace que la imagen esté centrada horizontalmente */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+/* Estilo para cambiar el color del botón "Enviar"*/
+.btn.btn-success {
+  background-color:  #16996e; /* Altere a cor de fundo para a cor desejada (vermelho, neste caso) */
+  border-color: #16996e; /* Altere a cor da borda para combinar com a cor de fundo */
+  color: #fff; /* Altere a cor do texto para branco ou outra cor de texto desejada */
+}
+
+/* Estilo para cambiar el color del botón "Enviar" */
+.btn.btn-success:hover {
+  background-color: #2e4f43; /* Altere a cor de fundo do botão ao passar o mouse por cima */
+  border-color: #2e4f43; /* Altere a cor da borda ao passar o mouse por cima */
+  color: #fff; /* Altere a cor do texto para branco ou outra cor de texto desejada ao passar o mouse por cima */
+}
+
+.campo-container {
+  display: flex; /* Hace que los elementos secundarios sean flexibles */
+  align-items: center; /* Alinear elementos verticalmente al centro */
+  margin-bottom: 10px; /* Agrega espacio inferior entre cada par de campos. */
+}
+
+.campo-container label {
+  flex: 1; /* Hace que la etiqueta se expanda para ocupar todo el espacio disponible. */
+  margin-right: 3px; /* Agrega espacio a la derecha de la etiqueta. */
+}
+
+.campo-texto {
+  flex: 10; /* Hace que el campo de entrada se expanda para ocupar más espacio que la etiqueta */
+  width: 80%; /* Establezca el ancho al 80% para ocupar todo el ancho disponible */
+  display: block; /* Hace que los campos de entrada se muestren en bloques separados */
+}

@@ -1,0 +1,149 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E0FFFF;
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  background-color: #16996e;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+h1{
+  font-family: Apple Chancery, cursive;
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+h2 {
+  font-family: Apple Chancery, cursive;
+  color: #16996e;
+}
+
+h5{
+    font-family: Apple Chancery, cursive;
+    color: #333;
+
+}
+main {
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #E0FFFF;
+}
+
+/* Estilos para la sección de biografía. */
+.biografia-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.biografia {
+    background-color: #E0FFFF;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px 
+}
+
+.biografia h2 {
+    color: #16996e;
+    font-size: 1.5rem;
+}
+
+.biografia img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.biografia p {
+    line-height: 1.6;
+    color: #555;
+    display: none; /* Ocultar texto inicialmente */
+}
+
+/* Estilos de botones */
+.botao {
+    background-color: #16996e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.botao:hover {
+    background-color: #2e4f43;
+
+}
+.btn.btn-success.btn-sm {
+  background-color:  #16996e;
+  border-color: #16996e; 
+  color: #fff; 
+}
+
+/* Estilo para el botón "Adicionar Comentario" */
+.btn.btn-success.btn-sm:hover {
+    background-color: #2e4f43; 
+    border-color: #2e4f43; 
+    color: #fff; 
+}
+.imagem-hover {
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.imagem-hover:hover {
+    transform: scale(1.1); /* Escala la imagen en un 10% al pasar el mouse */
+    border: 2px solid #2e4f43; /* Agrega un borde verde al pasar el mouse */
+}
+
+
+<style>
+.imagem:hover {
+    opacity: 0.7; /* Establece la opacidad cuando el cursor está sobre la imagen. */
+}
+</style>
+<style>
+/* Añade un estilo para resaltar el autor seleccionado. */
+.biografia.selecionada {
+    border: 2px solid blue;
+    padding: 10px;
+}
+</style>
+body {
+    min-height: 100vh; /* Garantiza una altura mínima del 100% de la altura de la ventana. */
+}
+
+/* Estilos para la sección de comentarios. */
+.comentarios {
+    float: right; /* Alinear a la derecha */
+    width: 200px; /* Ancho deseado */
+}
+
+/* Estilos para el contenedor de biografía. */
+.biografia-conteudo {
+    overflow: hidden; /* Evita que los comentarios salgan del contenedor. */
+}

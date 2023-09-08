@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E0FFFF;
+
+}
+header {
+  background-color: #16996e;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1{
+  font-family: Apple Chancery, cursive;
+  color: #fff;
+}
+h2 {
+  font-family: Apple Chancery, cursive;
+  color: #16996e;
+}
+h4 {
+  font-family: Apple Chancery, cursive;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #16996e;
+  color: #fff;
+  weight: 100% ;
+}
+
+
+
+/* Estilos específicos para la Galería */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-container img {
+  max-width: 300px;
+  height: auto;
+}
+
+.card img {
+  max-width: 200px;
+  height: auto;
+}
+/*Carousel*/
+.carousel-inner img {
+  width: 100%; /* Largor deseado para imágenes */
+  height: 600px; /* Altura deseada para las imágenes */
+  object-fit: cover; /* Las imágenes se ajustarán al tamaño especificado manteniendo la relación de aspecto. */
+}
+
+
+/* Estilo para ocultar contenido extra por defecto */
+.conteudo-extra {
+  display: none;
+}
+/* Estilo para el botón "Ver Más" */
+.ver-mais {
+  color: blue; /* Color de enlace */
+  cursor: pointer;
+}
+
+/* Estilo para cambiar el color del botón "Leer libro" */
+.btn.btn-success {
+  background-color:  #16996e; /* Altere a cor de fundo para a cor desejada (vermelho, neste caso) */
+  border-color: #16996e; /* Altere a cor da borda para combinar com a cor de fundo */
+  color: #fff; /* Altere a cor do texto para branco ou outra cor de texto desejada */
+}
+
+/* Estilo para el botón "Leer libro" */
+.btn.btn-success:hover {
+  background-color: #2e4f43; /* Altere a cor de fundo do botão ao passar o mouse por cima */
+  border-color: #2e4f43; /* Altere a cor da borda ao passar o mouse por cima */
+  color: #fff; /* Altere a cor do texto para branco ou outra cor de texto desejada ao passar o mouse por cima */
+}
