@@ -1,17 +1,4 @@
-// Función para mostrar más información sobre el autor.
-function mostrarMais(authorId) {
-    const authorBio = document.getElementById(`author-bio-${authorId}`);
-    const verMaisBtn = authorBio.querySelector('.ver-mais');
-    const fullBio = authorBio.querySelector('.full-bio');
 
-    if (fullBio.classList.contains('hidden')) {
-        fullBio.classList.remove('hidden');
-        verMaisBtn.textContent = 'Ver Menos';
-    } else {
-        fullBio.classList.add('hidden');
-        verMaisBtn.textContent = 'Ver Más';
-    }
-}
 
 // Función para mostrar u ocultar todas las biografías.
 function toggleTodos() {
